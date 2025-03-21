@@ -1,5 +1,7 @@
-aiohttp==3.9.5
-botbuilder-core==4.16.1
-botbuilder-schema==4.16.1
-botframework-connector==4.16.1
-python-dotenv==1.0.1
+flask
+msal
+requests
+botbuilder-core
+botbuilder-schema
+botbuilder-integration-flask
+python-dotenv

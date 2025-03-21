@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: teams-bot
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    envVars:
+      - key: TEAMS_APP_ID
+        sync: false
+      - key: TEAMS_APP_PASSWORD
+        sync: false
