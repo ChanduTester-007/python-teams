@@ -3,5 +3,6 @@ msal
 requests
 botbuilder-core
 botbuilder-schema
-botbuilder-integration-flask
+botbuilder-integration-aiohttp
 python-dotenv
+ 
